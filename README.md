@@ -31,7 +31,7 @@ To run the example, type the following command:
 ```
 python cytolncpred.py -i example_input.fa
 ```
-This will predict if the submitted sequences are Binders or Non-binder. It will use other parameters by default. It will save the output in "outfile.csv" in CSV (comma seperated variables).
+This will predict the probability whether a submitted sequence will localize to the cytoplasm or nucleus. It will use other parameters by default. It will save the output in "outfile.csv" in CSV (comma separated variables).
 
 ## Full Usage
 ```
