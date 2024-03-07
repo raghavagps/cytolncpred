@@ -85,6 +85,6 @@ dnabert2_10k.zip (not provided)			: This zipped file contains the fine-tuned DNA
 
 cytolncpred.py                  : Main python program
 
-example.fasta	                : Example file contain peptide sequences in FASTA format
+example.fasta	                : Example file contain lncRNA sequences in FASTA format
 
 sample_output.csv		: Example output file for the program
