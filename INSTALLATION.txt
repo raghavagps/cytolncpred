@@ -1,0 +1,13 @@
+1. Pre requisite
+==========
+--In order to run this program user should have Python3, libraries -  transformers==4.29, argparse, biopython, torch, numpy and pandas.
+
+2. Download Site
+=================
+URL: https://webs.iiitd.edu.in/raghava/cytolncpred/downloads/cytolncpred.zip
+
+3. Unzip
+
+4. Change dir to cytolncpred_standalone
+
+5. python cytolncpred.py -h (Minimum Usage)
