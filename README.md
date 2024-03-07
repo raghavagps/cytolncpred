@@ -1,5 +1,5 @@
 # **CytoLNCpred**
-A computational method to predict the probability of lncRNA localizing to cytoplasm
+A computational method to predict the probability of lncRNA localizing to the cytoplasm
 ## Introduction
 CytoLNCpred is a tool developed by Raghva-Lab in 2024. It is designed to predict the probability of lncRNA localizing to the cytoplasm. It utilizes a large language model - DNABERT-2 to make predictions. CytoLNCpred is also available as web-server at https://webs.iiitd.edu.in/raghava/cytolncpred. Please read/cite the content about the CytoLNCpred for complete information including algorithm behind the approach.
 
