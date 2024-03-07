@@ -15,12 +15,12 @@ cytolncpred -h
 ## Standalone
 The Standalone version of CytoLNCpred is written in python3 and following libraries are necessary for the successful run:
 
--transformers==4.29
--argparse
--biopython
--torch
--numpy
--pandas
+- transformers==4.29
+- argparse
+- biopython
+- torch
+- numpy
+- pandas
 
 ## Minimum USAGE
 To know about the available option for the stanadlone, type the following command:
@@ -65,11 +65,11 @@ optional arguments:
 
 **Output File:** Program will save the results in the CSV format, in case user does not provide output file name, it will be stored in "outfile.csv".
 
-**Threshold:** User should provide threshold between 0 and 1, by default its 0.16.
+**Threshold:** User should provide threshold between 0 and 1, by default its 0.5.
 
-**Window length**: User can choose any pattern length between 9 and 20 in long sequences. This option is available for only scanning module.
+**Working Directory:** Directory where intermediate files as well as final results will be saved
 
-**Display type:** This option allow users to fetch either only HLA-DRB1-04:01 binding peptides by choosing option 1 or prediction against all peptides by choosing option 2.
+**Display type:** This option allow users to fetch either only lncRNA localizing to Cytoplasm by choosing option 1 or only lncRNA localizing to Nucleus by choosing option 2  or prediction for all lncRNAs by choosing option 2.
 
 CytoLNCpred Package Files
 =======================
@@ -81,7 +81,7 @@ LICENSE				: License information
 
 README.md			: This file provide information about this package
 
-dnabert2_10k			: This folder contains the fine-tuned DNABERT-2 model
+dnabert2_10k.zip (not provided)			: This zipped file contains the fine-tuned DNABERT-2 model. It can be downloaded from the [link](https://webs.iiitd.edu.in/raghava/cytolncpred/downloads/dnabert2_10k.zip). This file should be present in the working directory. 
 
 cytolncpred.py                  : Main python program
 
