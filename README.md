@@ -1,5 +1,5 @@
 # **CytoLNCpred**
-A computational method to predict the probability of lncRNA localizing to the cytoplasm
+A computational method to predict the probability of lncRNA localizing to cytoplasm
 ## Introduction
 CytoLNCpred is a tool developed by Raghva-Lab in 2024. It is designed to predict the probability of lncRNA localizing to the cytoplasm. It utilizes a large language model - DNABERT-2 to make predictions. CytoLNCpred is also available as web-server at https://webs.iiitd.edu.in/raghava/cytolncpred. Please read/cite the content about the CytoLNCpred for complete information including algorithm behind the approach.
 
@@ -15,12 +15,12 @@ cytolncpred -h
 ## Standalone
 The Standalone version of CytoLNCpred is written in python3 and following libraries are necessary for the successful run:
 
-- transformers==4.29
-- argparse
-- biopython
-- torch
-- numpy
-- pandas
+-transformers==4.29
+-argparse
+-biopython
+-torch
+-numpy
+-pandas
 
 ## Minimum USAGE
 To know about the available option for the stanadlone, type the following command:
@@ -81,10 +81,10 @@ LICENSE				: License information
 
 README.md			: This file provide information about this package
 
-dnabert2_10k.zip (not provided)			: This zipped file contains the fine-tuned DNABERT-2 model. It can be downloaded from the [link](https://webs.iiitd.edu.in/raghava/cytolncpred/downloads/dnabert2_10k.zip). This file should be present in the working directory. 
+dnabert2_10k			: This folder contains the fine-tuned DNABERT-2 model
 
 cytolncpred.py                  : Main python program
 
-example.fasta	                : Example file contain lncRNA sequences in FASTA format
+example.fasta	                : Example file contain peptide sequences in FASTA format
 
 sample_output.csv		: Example output file for the program
