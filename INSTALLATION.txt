@@ -1,6 +1,6 @@
 1. Pre requisite
 ==========
---In order to run this program user should have python3.12, 
+--In order to run this program user should have python 3.12, 
 Libraries   
 - numpy  2.1.1
 - pandas  2.2.3
