@@ -14,7 +14,11 @@ cytolncpred -h
 ```
 ## Standalone
 The Standalone version of CytoLNCpred is written in python3 and following libraries are necessary for the successful run:
-
+- numpy  2.1.1
+- pandas  2.2.3
+- scikit-learn  1.5.2
+- xgboost  2.1.1
+- argparse
 
 ## Minimum USAGE
 To know about the available option for the stanadlone, type the following command:
