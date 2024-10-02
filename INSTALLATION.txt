@@ -1,6 +1,11 @@
 1. Pre requisite
 ==========
---In order to run this program user should have Python3, libraries -  transformers==4.29, argparse, biopython, torch, numpy and pandas.
+--In order to run this program user should have python3.12, 
+Libraries   
+- numpy  2.1.1
+- pandas  2.2.3
+- scikit-learn  1.5.2
+- xgboost  2.1.1
 
 2. Download Site
 =================
