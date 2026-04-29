@@ -3,6 +3,9 @@ A computational method to predict the probability of lncRNA localizing to cytopl
 ## Introduction
 CytoLNCpred is a tool developed by Raghava-Lab in 2024. It is designed to predict the probability of lncRNA localizing to the cytoplasm. It utilizes a correlation-based features with machine learning to make predictions. CytoLNCpred is also available as web-server at https://webs.iiitd.edu.in/raghava/cytolncpred. Please read/cite the content about the CytoLNCpred for complete information including algorithm behind the approach.
 
+## PIP Installation: 
+Choudhury S, Mehta NK , Raghava GPS (2024). “CytoLNCpred: A computational method for predicting cytoplasm associated long non-coding RNAs in 15 cell-lines.” Frontiers in Bioinformatics, Sec. RNA Bioinformatics, 5 (2025): 1585794.
+
 ## PIP Installation
 PIP version is also available for easy installation and usage of this tool. The following command is required to install the package 
 ```
